@@ -1,10 +1,11 @@
 .search {
   flex: 1;
+  text-align: center;
 }
 
 .input {
   width: 300px;
-  margin: 10px 150px;
+  margin: 10px auto;
 
   & > * {
     text-align: center !important;
@@ -25,4 +26,10 @@
   padding: 15px;
   border: 1px solid #eee;
   border-radius: 20px;
+
+  @media only screen and (max-width: 768px) {
+    max-height: calc(100vh - 225px);
+  }
 }
+
+

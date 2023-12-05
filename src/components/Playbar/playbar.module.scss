@@ -24,6 +24,12 @@
   & * {
     color: white !important;
   }
+
+  @media only screen and (max-width: 768px) {
+    height: 100px;
+    gap: 12px;
+    font-size: 12px;
+  }
 }
 
 .preview {
@@ -51,3 +57,4 @@
   flex-basis: 600px;
   margin-left: auto;
 }
+
