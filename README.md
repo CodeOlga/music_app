@@ -9,6 +9,7 @@ Music Playback: Listen to your favorite tracks directly within the app without t
 Playlist Creation: Craft personalized playlists with your favorite compositions.
 
 
-![My Music App](/main-image.png)
+![My Music App](public/main-image.png)
 
-
+## Getting Started
+Visit https://capable-otter-ae0936.netlify.app/ to explore the My Music Application.
